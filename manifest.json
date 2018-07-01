@@ -1,0 +1,16 @@
+{
+  "name": "Faster E3",
+  "version": "1.0",
+  "description": "Make new e3 great again",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://e3new.nctu.edu.tw/*"
+      ],
+      "js": [
+        "main.js"
+      ]
+    }
+  ]
+}
